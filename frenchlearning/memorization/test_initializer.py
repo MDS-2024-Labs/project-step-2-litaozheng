@@ -40,9 +40,7 @@ class TestInitializer(unittest.TestCase):
 
    
 if __name__ == '__main__':
-    import sys
-    sys.argv = ['']
-    unittest.main(exit=False)  
+    unittest.main(argv=[''], verbosity=2, exit=False)
 
 
 
